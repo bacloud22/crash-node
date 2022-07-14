@@ -1,0 +1,36 @@
+{
+  "name": "crash-node",
+  "version": "1.0.0",
+  "description": "Attempts to crash a node project on purpose when no other solution is present (unknown port, PID, etc). Use at your own risk !",
+  "main": "src/index.js",
+  "bin": {
+    "@bacloud22/crash-node": "bin/crash-node.js",
+    "crash-node": "bin/crash-node.js"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bacloud22/crash-node.git"
+  },
+  "keywords": [
+    "cli",
+    "node",
+    "javascript",
+    "process",
+    "pid",
+    "kill"
+  ],
+  "author": "bacloud14@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bacloud22/crash-node/issues"
+  },
+  "homepage": "https://github.com/bacloud22/crash-node#readme",
+  "dependencies": {
+    "arg": "^5.0.2",
+    "chalk": "^5.0.1",
+    "esm": "^3.2.25"
+  }
+}
