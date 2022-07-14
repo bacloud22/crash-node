@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Attempts to crash a node project on purpose when no other solution is present (unknown port, PID, etc). Use at your own risk !",
   "main": "src/index.js",
+  "type": "module",
   "bin": {
     "@bacloud22/crash-node": "bin/crash-node.js",
     "crash-node": "bin/crash-node.js"
